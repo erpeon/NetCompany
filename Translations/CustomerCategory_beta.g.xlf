@@ -43,6 +43,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table erp Customer Category - Field Category Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3782994933 - Field 4064506676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Customer Category - Field Active Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 963410567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Category List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -72,6 +77,26 @@
           <source>Customer Category Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension erp Customer - Field erp Customer Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2257399641 - EnumValue 18652612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum erp Active Status - EnumValue  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2257399641 - EnumValue 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum erp Active Status - EnumValue Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2257399641 - EnumValue 926489874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On Hold</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum erp Active Status - EnumValue On Hold - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2257399641 - EnumValue 3991746981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waiting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum erp Active Status - EnumValue Waiting - Property Caption</note>
         </trans-unit>
       </group>
     </body>

@@ -21,6 +21,11 @@ page 50101 "erp Customer Category List"
                 {
                     ApplicationArea = All;
                 }
+                field("Active Status"; "Active Status")
+                {
+                    ApplicationArea = All;
+
+                }
             }
         }
         area(Factboxes)

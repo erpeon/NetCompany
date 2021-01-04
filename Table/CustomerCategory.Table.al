@@ -19,6 +19,11 @@ table 50101 "erp Customer Category"
             Caption = 'Category Code';
             TableRelation = "erp Category";
         }
+        field(3; "Active Status"; Enum "erp Active Status")
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Active Status';
+        }
 
     }
     keys

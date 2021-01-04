@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="CustomerCategory_beta">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2935298641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2935298641 - Field 3877927551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Category - Field Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2935298641 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Category - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2935298641 - Field 687971871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Category - Field Discount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2935298641 - Field 2615327394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Antal kunder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Category - Field erp No. of Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3782994933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Customer Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3782994933 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Customer Category - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3782994933 - Field 3877927551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table erp Customer Category - Field Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 963410567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page erp Category List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4191957963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page erp Customer Category List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3063667515 - Control 3102235098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Shows current Customer Category Code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension erp Customer List - Control erp Customer Category Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3063667515 - Action 3702373668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension erp Customer List - Action Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 503073408 - Action 1530605032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Kategori</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension erp SO Proc. RoleC - Action Customer Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1037394533 - Field 3102235098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Customer Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension erp Customer - Field erp Customer Category Code - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

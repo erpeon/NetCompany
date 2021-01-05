@@ -46,7 +46,7 @@ codeunit 50100 "erp Cust. Cat.Disc Calc. Mgt."
     local procedure ModifyDescriptionOnLine(var SalesLine: Record "Sales Line")
     begin
         if copystr(salesline.Description, 1, 1) <> '¤' then begin
-            SalesLine.Description := '¤' + SalesLine.Description;
+            SalesLine.Description := '!!' + SalesLine.Description;
             salesline.modify;
         end;
     end;

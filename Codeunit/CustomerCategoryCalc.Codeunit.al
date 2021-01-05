@@ -15,7 +15,7 @@ codeunit 50100 "erp Cust. Cat.Disc Calc. Mgt."
         if Customer.get(Salesline."Sell-to Customer No.") then begin
             customer.calcfields("erp Customer Category Code");
             if (Category.get(Customer."erp Customer Category Code")) and
-               (CustomerCategory.get(salesline."Sell-to Customer No.", category."Category Code")) then begin
+               (CustomerCategory.get(salesline."Sell-to Customer No.")) then begin
                 if (Category.Discount <> 0) and (CustomerCategory."Active Status" <> CustomerCategory."Active Status"::"On Hold") then begin
                     if salesline."Allow Line Disc." then
                         Salesline.Validate("Line Discount %", Category.Discount);
@@ -23,5 +23,16 @@ codeunit 50100 "erp Cust. Cat.Disc Calc. Mgt."
             end;
 
         end;
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterInsertEvent', '', true, true)]
+    local procedure DoSomethingOnAfterInsert(var Rec: Record "Sales Line")
+    begin
+        SetDescriptionOnLine(Rec);
+    end;
+
+    local procedure SetDescriptionOnLine(var SalesLine: Record "Sales Line")
+    begin
+        SalesLine.Description := 'From AL';
     end;
 }

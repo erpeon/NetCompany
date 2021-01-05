@@ -39,12 +39,16 @@ pageextension 50102 "erp Customer List" extends "Customer List"
                     SalesLine.setrange("Document Type", salesline."Document Type"::Order);
                     salesline.setrange("Sell-to Customer No.", "No.");
                     if salesline.findlast then begin
+                        salesline.setrange("sell-to customer no.");
+                        salesline.setrange("Document No.", salesline."Document No.");
+                        salesline.findlast;
                         SalesLine2 := SalesLine;
-                        salesline2."Line No." += 10000;
+                        LineNo := SalesLine."Line No.";
                         salesline2.init;
+                        salesline2."Line No." := LineNo + 10000;
                         salesline2.description := 'New Line';
-                        salesline2.insert;
-
+                        if not salesline2.insert then
+                            error('Jeg kan ikke finde næste linje %1 %2 %3', salesline.getfilters, salesline."Line No.", salesline2."Line No.")
                     end;
                 end;
             }

@@ -68,6 +68,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension erp Customer List - Action Category - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3063667515 - Action 3016980590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>CreateSalesLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension erp Customer List - Action CreateSalesLine - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 503073408 - Action 1530605032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>Kategori</source>
           <note from="Developer" annotates="general" priority="2"></note>

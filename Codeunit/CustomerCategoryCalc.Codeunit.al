@@ -34,5 +34,20 @@ codeunit 50100 "erp Cust. Cat.Disc Calc. Mgt."
     local procedure SetDescriptionOnLine(var SalesLine: Record "Sales Line")
     begin
         SalesLine.Description := 'From AL';
+        salesline.modify;
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterModifyEvent', '', true, true)]
+    local procedure DoSomethingOnAfterModify(var Rec: Record "Sales Line")
+    begin
+        ModifyDescriptionOnLine(Rec);
+    end;
+
+    local procedure ModifyDescriptionOnLine(var SalesLine: Record "Sales Line")
+    begin
+        if copystr(salesline.Description, 1, 1) <> '¤' then begin
+            SalesLine.Description := '¤' + SalesLine.Description;
+            salesline.modify;
+        end;
     end;
 }

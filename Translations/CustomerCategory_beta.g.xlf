@@ -78,6 +78,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension erp SO Proc. RoleC - Action Customer Category - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1920574011 - Action 3826606722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1536854760">
+          <source>Validate VAT Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCL MyExtension - Action SCL ValidateVATSetup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1037394533 - Field 3102235098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Customer Category Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
